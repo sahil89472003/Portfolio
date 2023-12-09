@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/798c4d6589.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="personal-portfolio-img/images/logo.png" alt="logo" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p></p>
+                <h1>Hi,I am <span>Sahil Suryawanshi</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------ABOUT----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="personal-portfolio-img/images/sahil.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>
+                        I'm Sahil, currently immersed in the world of Information Technology at Pillai College,
+                        pursuing my BSc-IT degree. My academic journey has its roots in the esteemed
+                        Bharati Vidyapeeth Prashala & Jr College, where I successfully completed my 10th and 12th
+                        grades.
+                        My expertise shines in the realm of .NET Framework, where I've cultivated a strong understanding
+                        and proficiency.
+                        The dynamic nature of technology never fails to fascinate me, and I'm always eager to explore
+                        new
+                        horizons
+                        within the IT landscape.
+                        Beyond the code and classrooms, I'm a curious mind driven by a relentless desire to learn and
+                        adapt.
+                        I believe in the power of continuous improvement, whether it's mastering a new programming
+                        language or
+                        staying abreast of the latest industry trends.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C#</span><br>--------------------------</li>
+                            <li><span>.Net Framework 4.8.1</span><br>--------------------------</li>
+                            <li><span>HTML, CSS</span><br>--------------------------</li>
+                            <li><span>ASP.NET</span><br>--------------------------</li>
+                            <li><span>.Net Core/MVC</span><br>--------------------------</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br><br>At TechnoHacks EduTech
+                                Official<br>----------------------------------------------<br>I am excited to share my
+                                journey as a Web Developer Intern at Techno
+                                Hacks Edutech, where I dedicated a transformative month to honing my skills and
+                                contributing to impactful projects.
+                                <br>
+                                <br>
+                                🚀 Key Contributions:
+                                Spearheaded the development of 3-4 diverse web projects within a tight timeframe,
+                                demonstrating agility and efficiency in project delivery.
+                                Collaborated with a dynamic team to design and implement solutions that seamlessly
+                                aligned with client specifications and user requirements.
+                                <br>
+                                <br>
+                                💡 Skill Enhancement:
+                                This internship has significantly enriched my skill set, providing hands-on experience
+                                in C#, HTML, CSS, .Net Framework.
+                                I now confidently navigate the intricacies of web development, from concept to
+                                deployment.
+                            </li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br><br>BScIT<br>--------------------------<br>From Pillai College
+                                of Arts, Commerce &
+                                Science<br>CGPA 8.35</li>
+                            --------------------------
+                            <li><span>2019-2021</span><br><br>HSC<br>--------------------------<br>From Bharati
+                                Vidyapeeth Prashala & Junior
+                                College<br>79%</li>
+                            --------------------------
+                            <li><span>2018-2019</span><br><br>SSC<br>--------------------------<br>From Bharati
+                                Vidyapeeth Prashala & Junior
+                                College<br>81.80%</li>
+                            --------------------------
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Clinic Managenment Website</h3>
+                        <p>
+                            This is a website for managing clinics, where doctors and patients can register themselves
+                            to the system.
+                            It also includes an admin panel, doctors panel, receptionoist panel, laboratorian panel
+                        </p>
+                        <a href="https://github.com/sahil89472003/DotNetProjects"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Reminder Website</h3>
+                        <p>
+                            This is a reminder website for students, where they can set their reminders.
+                        </p>
+                        <a href="https://github.com/sahil89472003/FinalYearProject"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Landing page Titan Company</h3>
+                        <p>
+                            A landing page for titan company which was created by me using HTML and CSS.
+                        </p>
+                        <a href="https://sahil89472003.github.io/Landing-Page/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/sahil89472003" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------------- Contact----------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sahil472003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8692024659</p><br><br>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/04_sahilll/"><i class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/sahil-suryawanshi-2a680b282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Sahil64448548"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="personal-portfolio-img/images/MyResume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="text" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sahil</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx0FUP8YUnmiEaCrcxBwoQMq6AR-aVRy1mbM0fBuoW4C5iNO1QaHH1NAsNdFzzqsts/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
